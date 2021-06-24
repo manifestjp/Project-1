@@ -6,9 +6,9 @@ https://github.com/manifestjp/Project-1/blob/main/Diagrams/Network_Diagram.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
 
-- [install-elk.yml] (https://github.com/manifestjp/Project-1/blob/main/Ansible/install-elk.yml.txt)](url)
-- [GitHub Pages] (https://github.com/manifestjp/Project-1/blob/main/Ansible/filebeat-playbook.yml.txt)
-- [GitHub Pages] (https://github.com/manifestjp/Project-1/blob/main/Ansible/metricbeat-playbook.yml.txt)
+- [install-elk.yml](https://github.com/manifestjp/Project-1/blob/main/Ansible/install-elk.yml.txt)](url)
+- [filbeat-playbook.yml](https://github.com/manifestjp/Project-1/blob/main/Ansible/filebeat-playbook.yml.txt)
+- [metricbeat-playbook.yml](https://github.com/manifestjp/Project-1/blob/main/Ansible/metricbeat-playbook.yml.txt)
 
 This document contains the following details:
 - Description of the Topology
