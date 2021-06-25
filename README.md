@@ -1,4 +1,4 @@
-<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100"><img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
+<img align="left" width="100" height="100" src="https://img1.picmix.com/output/stamp/normal/5/5/7/8/1098755_1a3d8.gif"><img align="right" width="100" height="100" src="https://img1.picmix.com/output/stamp/normal/5/5/7/8/1098755_1a3d8.gif">
 
 
 ## Automated ELK Stack Deployment
