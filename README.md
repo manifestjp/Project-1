@@ -1,5 +1,3 @@
-![](https://www.icegif.com/wp-content/uploads/icegif-87.gif)
-
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
@@ -260,3 +258,5 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 -ansible-playbook metricbeat-playbook.yml
 
 -sudo apt-get update
+
+![](https://media0.giphy.com/media/fejrg3C6R9RXiqwyZU/giphy.gif?cid=790b7611b0cd6d17e169973bb60131ac14bf5b23b7811a3b&rid=giphy.gif&ct=s)
