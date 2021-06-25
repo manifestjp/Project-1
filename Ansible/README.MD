@@ -1,3 +1,6 @@
+<p align="center">
+  <img width="460" height="300" src="https://media1.tenor.com/images/bb4981e2d6ec1faf2a12cedc2ca7f19f/tenor.gif?itemid=8939664">
+</p>
 ## Ansible Files
 
 Below you will find a discription of the files in the Ansible folder.
