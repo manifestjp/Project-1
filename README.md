@@ -73,13 +73,6 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The playbook implements the following tasks:
 
 - Installs docker.io, pip3, and the docker module.
-
-- Increases virtual memory.
-
-- Uses sysctl module.
-
-- Downloads and launches The Docker container for the ELK server.
-
 ```bash
 ---
 - name: Configure Elk VM with Docker
@@ -107,19 +100,25 @@ The playbook implements the following tasks:
       pip:
         name: docker
         state: present
-
-      # Use command module
+```
+- Increases virtual memory.
+```bash
+# Use command module
     - name: Increase virtual memory
       command: sysctl -w vm.max_map_count=262144
-
-      # Use sysctl module
+```
+- Uses sysctl module.
+```bash
+ # Use sysctl module
     - name: Use more memory
       sysctl:
         name: vm.max_map_count
         value: '262144'
         state: present
         reload: yes
-
+```
+- Downloads and launches The Docker container for the ELK server.
+```bash
       # Use docker_container module
     - name: download and launch a docker elk container
       docker_container:
@@ -132,12 +131,6 @@ The playbook implements the following tasks:
           - 5601:5601
           - 9200:9200
           - 5044:5044
-
-      # Use systemd module
-    - name: Enable service docker on boot
-      systemd:
-        name: docker
-        enabled: yes
 ```
  
 
@@ -220,6 +213,7 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
       enabled: yes
 ```
 -ansible-playbook filebeat-playbook.yml
+
 -sudo apt-get update
 
 -Metricbeat
@@ -262,4 +256,5 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
       enabled: yes
 ```
 -ansible-playbook metricbeat-playbook.yml
+
 -sudo apt-get update
