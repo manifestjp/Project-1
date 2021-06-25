@@ -182,8 +182,20 @@ SSH into the control node and follow the steps below:
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
--curl -L -O [The http location of the playbook]
--sudo get-apt update
+### Follow these instructions from your Jump box:
+
+
+- Run the command "curl https://github.com/manifestjp/Project-1/blob/main/Ansible/install-elk.yml > /etc/ansible/roles/install-elk.yml"
+
+- Edit the hosts file in /etc/ansible and add your priviate IP address for your ELK server:
+```bash
+[elk]
+TODO[private-IP-address-for-elk-server] ansible_python_interpreter=/usr/bin/python3
+```
+
+- Run the playbook with "ansible-playbook /etc/ansible/roles/install-elk.yml"
+
+- To check if the installation worked type this into your browser "http://[your_elk_server_ip]:5601/app/kibana" and if it was installed correctly you will be at the Kibana home page.
 
 <p align="center">
   <img width="460" height="300" src="https://media0.giphy.com/media/fejrg3C6R9RXiqwyZU/giphy.gif?cid=790b7611b0cd6d17e169973bb60131ac14bf5b23b7811a3b&rid=giphy.gif&ct=s">
