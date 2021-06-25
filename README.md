@@ -80,11 +80,11 @@ The playbook implements the following tasks:
 
 - Downloads and launches The Docker container for the ELK server.
 
-install-elk.yml.txt
+![](Ansible/install-elk.yml.txt)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-docker ps.JPG
+![](Image/docker%20ps.JPG)
 
 
 ### Target Machines & Beats
@@ -128,13 +128,13 @@ SSH into the control node and follow the steps below:
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
 -Filebeat
-filebeat-playbook.yml.txt
+![](Ansible/filebeat-playbook.yml.txt)
 
 -ansible-playbook filebeat-playbook.yml
 -sudo apt-get update
 
 -Metricbeat
-metricbeat-playbook.yml.txt
+![](Ansible/metricbeat-playbook.yml.txt)
 
 -ansible-playbook metricbeat-playbook.yml
 -sudo apt-get update
