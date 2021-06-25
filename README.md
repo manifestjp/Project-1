@@ -2,11 +2,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/manifestjp/Project-1/blob/main/Diagrams/Network_Diagram.png
+Network_Diagram.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
 
-- [install-elk.yml](https://github.com/manifestjp/Project-1/blob/main/Ansible/install-elk.yml.txt)](url)
+- [install-elk.yml](https://github.com/manifestjp/Project-1/blob/main/Ansible/install-elk.yml.txt)]
 - [filbeat-playbook.yml](https://github.com/manifestjp/Project-1/blob/main/Ansible/filebeat-playbook.yml.txt)
 - [metricbeat-playbook.yml](https://github.com/manifestjp/Project-1/blob/main/Ansible/metricbeat-playbook.yml.txt)
 
@@ -81,11 +81,11 @@ The playbook implements the following tasks:
 
 - Downloads and launches The Docker container for the ELK server.
 
-Ansible/install-elk.yml.txt
+install-elk.yml.txt
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-Image/docker ps.jpeg 
+docker ps.JPG
 
 
 ### Target Machines & Beats
@@ -129,11 +129,13 @@ SSH into the control node and follow the steps below:
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
 -Filebeat
-Ansible/filebeat-playbook.yml.txt
+filebeat-playbook.yml.txt
+
 -ansible-playbook filebeat-playbook.yml
 -sudo apt-get update
 
 -Metricbeat
-Ansible/metricbeat-playbook.yml.txt
+metricbeat-playbook.yml.txt
+
 -ansible-playbook metricbeat-playbook.yml
 -sudo apt-get update
