@@ -259,7 +259,6 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 
 -sudo apt-get update
 
-![](https://media0.giphy.com/media/fejrg3C6R9RXiqwyZU/giphy.gif?cid=790b7611b0cd6d17e169973bb60131ac14bf5b23b7811a3b&rid=giphy.gif&ct=s)
 <p align="center">
   <img width="460" height="300" src="https://media0.giphy.com/media/fejrg3C6R9RXiqwyZU/giphy.gif?cid=790b7611b0cd6d17e169973bb60131ac14bf5b23b7811a3b&rid=giphy.gif&ct=s">
 </p>
