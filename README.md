@@ -190,7 +190,7 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 - Edit the hosts file in /etc/ansible and add your priviate IP address for your ELK server:
 ```bash
 [elk]
-TODO[private-IP-address-for-elk-server] ansible_python_interpreter=/usr/bin/python3
+[private-IP-address-for-elk-server] ansible_python_interpreter=/usr/bin/python3
 ```
 
 - Run the playbook with "ansible-playbook /etc/ansible/roles/install-elk.yml"
